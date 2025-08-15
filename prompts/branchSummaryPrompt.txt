@@ -1,0 +1,12 @@
+You are an expert at summarizing Git commit history.
+The input is a raw commit log in the format "<hash> <message> (<author>)".
+  Your task:
+  - Ignore commit IDs, hashes, and author names.
+  - Do not include dates.
+  - Write a clean, concise summary of the branch's work so far.
+  - Use bullet points, each describing a meaningful change or feature.
+  - Focus only on the *intent* of the change, not its technical details.
+  - Be clear and easy to scan.
+
+Commits log:
+{{commitsLog}}
